@@ -1,0 +1,1043 @@
+﻿ 2017-08-22 14:51:14,901 [P9920/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on DESKTOP-1I6K8B3
+ 2017-08-22 14:51:14,930 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-22 14:51:14,941 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-08-22 14:51:15,018 [P9920/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-22 14:51:15,021 [P9920/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-22 14:51:15,024 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:15,303 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 278ms)
+ 2017-08-22 14:51:15,303 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-22 14:51:15,308 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2017-08-22 14:51:15,332 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:15,332 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:15,333 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-22 14:51:15,337 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-08-22 14:51:15,338 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:15,338 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:15,339 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-22 14:51:15,344 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 5ms)
+ 2017-08-22 14:51:15,365 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:15,366 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:15,366 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-22 14:51:15,370 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2017-08-22 14:51:15,371 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:15,371 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:15,372 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-22 14:51:15,377 [P9920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 5ms)
+ 2017-08-22 14:51:19,293 [P9920/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-22 14:51:19,602 [P9920/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-22 14:51:19,658 [P9920/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-22 14:51:19,792 [P9920/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-22 14:51:19,796 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-22 14:51:19,800 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-22 14:51:19,948 [P9920/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (102ms)
+ 2017-08-22 14:51:19,979 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-22 14:51:19,990 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-22 14:51:20,006 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-22 14:51:20,293 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,293 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-22 14:51:20,294 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,295 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-22 14:51:20,295 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,295 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-22 14:51:20,790 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,791 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-22 14:51:20,817 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,817 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-22 14:51:20,818 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,818 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-22 14:51:20,819 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 14:51:20,827 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-22 14:51:20,836 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 28 items with 0 changes ###
+ 2017-08-22 14:51:20,837 [P9920/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1036ms)
+ 2017-08-22 14:51:20,865 [P9920/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6077ms)
+ 2017-08-22 14:51:21,117 [P9920/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.fibercon:80/umbraco (UmbracoModule request)
+ 2017-08-22 14:51:21,140 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 12 ms.
+ 2017-08-22 14:51:22,732 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:23,419 [P9920/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-08-22 14:51:23,420 [P9920/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-22 14:51:23,426 [P9920/D2/T10] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
+ 2017-08-22 14:51:25,755 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,756 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,794 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,796 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,798 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,800 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,802 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,804 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,807 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,809 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,811 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:25,813 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:28,688 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:28,690 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:31,995 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:31,999 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,001 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,002 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,004 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,007 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,008 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,010 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,013 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 2 ms.
+ 2017-08-22 14:51:32,015 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,017 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,020 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,058 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:32,058 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:32,059 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-22 14:51:32,064 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 5ms)
+ 2017-08-22 14:51:32,140 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,142 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,239 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:32,239 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:32,239 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-22 14:51:32,244 [P9920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 4ms)
+ 2017-08-22 14:51:32,401 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,404 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,406 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,408 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,409 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,411 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,414 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 1 ms.
+ 2017-08-22 14:51:32,416 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,418 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,419 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,425 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,427 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,439 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,441 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,446 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,448 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,457 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,459 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,470 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,472 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,477 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,481 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,484 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,486 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,492 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,494 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,497 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 1 ms.
+ 2017-08-22 14:51:32,500 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,519 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,521 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 1 ms.
+ 2017-08-22 14:51:32,524 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,526 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,528 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,530 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,536 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,538 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,540 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,542 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,551 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,553 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,556 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,558 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,562 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,564 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,571 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 5 ms.
+ 2017-08-22 14:51:32,573 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,574 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,576 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,578 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,580 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,584 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,586 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,589 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,590 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,593 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,594 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,597 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,600 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,616 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,617 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,631 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,633 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,636 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,637 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,641 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,642 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,644 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,646 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,659 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,661 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,663 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,665 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,673 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,674 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,677 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,678 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,683 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,685 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,697 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,699 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,702 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 1 ms.
+ 2017-08-22 14:51:32,705 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,708 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,710 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,712 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,714 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,716 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,717 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,847 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,849 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,851 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,852 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,854 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,855 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,857 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,858 [P9920/D2/T11] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,859 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,861 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,863 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,864 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,897 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,898 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,900 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,901 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,917 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,918 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,928 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:32,930 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,137 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,139 [P9920/D2/T14] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,155 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,156 [P9920/D2/T12] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,201 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,203 [P9920/D2/T16] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,205 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,207 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,208 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,210 [P9920/D2/T15] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,215 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 1 ms.
+ 2017-08-22 14:51:33,217 [P9920/D2/T9] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,715 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,716 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:33,718 [P9920/D2/T10] WARN  Umbraco.Web.UmbracoModule - Umbraco has no content
+ 2017-08-22 14:51:41,519 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:41,521 [P9920/D2/T5] INFO  UCommerce.Umbraco7.Installer.Installer - No connection string was found. Indicating a fresh Umbraco7 instance. Determining took: 0 ms.
+ 2017-08-22 14:51:41,620 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:41,620 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:41,620 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-22 14:51:41,627 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2017-08-22 14:51:42,044 [P9920/D2/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username gmoujik@gmail.com from IP address 127.0.0.1
+ 2017-08-22 14:51:42,046 [P9920/D2/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: gmoujik@gmail.com logged in from IP address 127.0.0.1
+ 2017-08-22 14:51:42,183 [P9920/D2/T10] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.7.1.17180'
+ 2017-08-22 14:51:42,183 [P9920/D2/T10] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.7.1.17180. Determining took: 9 ms.
+ 2017-08-22 14:51:42,237 [P9920/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:42,237 [P9920/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:42,237 [P9920/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-22 14:51:42,243 [P9920/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 4ms)
+ 2017-08-22 14:51:42,298 [P9920/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:42,299 [P9920/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:42,299 [P9920/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-22 14:51:42,305 [P9920/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 6ms)
+ 2017-08-22 14:51:42,359 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:42,360 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:42,360 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-22 14:51:42,366 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 5ms)
+ 2017-08-22 14:51:42,388 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:42,388 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:42,388 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-22 14:51:42,388 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2017-08-22 14:51:42,392 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:51:42,392 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:51:42,392 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-22 14:51:42,399 [P9920/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 6ms)
+ 2017-08-22 14:52:32,093 [P9920/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-21 14:52:32
+ 2017-08-22 14:54:53,877 [P9920/D2/T60] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:54:53,877 [P9920/D2/T60] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:54:53,878 [P9920/D2/T60] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-08-22 14:54:53,885 [P9920/D2/T60] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 7ms)
+ 2017-08-22 14:55:18,047 [P9920/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:55:18,048 [P9920/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:55:18,048 [P9920/D2/T36] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-22 14:55:18,055 [P9920/D2/T36] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 7ms)
+ 2017-08-22 14:55:43,517 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:55:43,517 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:55:43,518 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2017-08-22 14:55:43,522 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 4ms)
+ 2017-08-22 14:55:43,675 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 14:55:43,676 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 14:55:43,676 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-22 14:55:43,680 [P9920/D2/T46] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2017-08-22 14:55:43,749 [P9920/D2/T46] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Home
+ 2017-08-22 14:55:56,212 [P9920/D2/T49] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Home
+ 2017-08-22 14:56:28,159 [P9920/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uHome' with Id '0' has been published.
+ 2017-08-22 14:56:32,425 [P9920/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 14:56:32,451 [P9920/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 14:57:39,912 [P9920/D2/T88] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-22 15:27:04,555 [P9920/D2/T342] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: gmoujik@gmail.com, IP Address: 127.0.0.1
+ 2017-08-22 15:42:50,439 [P9920/D2/T490] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username gmoujik@gmail.com from IP address 127.0.0.1
+ 2017-08-22 15:42:50,440 [P9920/D2/T490] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: gmoujik@gmail.com logged in from IP address 127.0.0.1
+ 2017-08-22 15:45:21,305 [P9920/D2/T538] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Product
+ 2017-08-22 15:45:44,353 [P9920/D2/T556] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uProduct' with Id '0' has been published.
+ 2017-08-22 15:45:48,621 [P9920/D2/T531] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:45:48,644 [P9920/D2/T531] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:46:30,456 [P9920/D2/T564] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:46:48,556 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-22 15:46:48,556 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-22 15:46:48,559 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-22 15:46:48,560 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-22 15:46:48,560 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-22 15:46:48,561 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-22 15:46:48,561 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-22 15:46:48,561 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-22 15:46:48,566 [P9920/D2/T568] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-22 15:46:48,566 [P9920/D2/T574] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-22 15:46:48,567 [P9920/D2/T542] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-22 15:46:48,566 [P9920/D2/T571] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-22 15:46:48,583 [P9920/D2/T531] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-22 15:46:48,586 [P9920/D2/T531] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-22 15:46:48,594 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-22 15:46:48,594 [P9920/D2/T531] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-22 15:46:48,595 [P9920/D2/T573] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-22 15:47:02,733 [P9920/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on DESKTOP-1I6K8B3
+ 2017-08-22 15:47:02,760 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-22 15:47:02,770 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-08-22 15:47:02,835 [P9920/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-22 15:47:02,837 [P9920/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-22 15:47:02,840 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:03,085 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 245ms)
+ 2017-08-22 15:47:03,086 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-22 15:47:03,092 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 6ms)
+ 2017-08-22 15:47:03,118 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:03,119 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:03,119 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-22 15:47:03,124 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-08-22 15:47:03,125 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:03,125 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:03,126 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-22 15:47:03,132 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-08-22 15:47:03,148 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:03,148 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:03,148 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-22 15:47:03,153 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 5ms)
+ 2017-08-22 15:47:03,154 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:03,154 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:03,154 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-22 15:47:03,159 [P9920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-08-22 15:47:04,694 [P9920/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-22 15:47:04,937 [P9920/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-22 15:47:04,990 [P9920/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-22 15:47:05,132 [P9920/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-22 15:47:05,136 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-22 15:47:05,140 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-22 15:47:05,262 [P9920/D3/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (89ms)
+ 2017-08-22 15:47:05,291 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-22 15:47:05,302 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-22 15:47:05,311 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-22 15:47:05,545 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2017-08-22 15:47:05,546 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-22 15:47:05,546 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:47:05,547 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-22 15:47:05,828 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 2 Items 0 changes 0 failures
+ 2017-08-22 15:47:05,829 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-22 15:47:06,061 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-22 15:47:06,061 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-22 15:47:06,088 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-22 15:47:06,088 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-22 15:47:06,089 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:47:06,089 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-22 15:47:06,090 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:47:06,097 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-22 15:47:06,105 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 30 items with 0 changes ###
+ 2017-08-22 15:47:06,107 [P9920/D3/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (967ms)
+ 2017-08-22 15:47:06,145 [P9920/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3513ms)
+ 2017-08-22 15:47:06,982 [P9920/D3/T568] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.fibercon:80/umbraco (UmbracoModule request)
+ 2017-08-22 15:47:07,254 [P9920/D3/T568] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.7.1.17180'
+ 2017-08-22 15:47:07,255 [P9920/D3/T568] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.7.1.17180. Determining took: 6 ms.
+ 2017-08-22 15:47:09,033 [P9920/D3/T582] INFO  umbraco.content - Load Xml from file...
+ 2017-08-22 15:47:09,034 [P9920/D3/T582] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-22 15:47:09,133 [P9920/D3/T582] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:09,133 [P9920/D3/T582] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:09,133 [P9920/D3/T582] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-22 15:47:09,138 [P9920/D3/T582] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-08-22 15:47:13,610 [P9920/D3/T582] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:47:18,690 [P9920/D2/T531] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-22 15:47:52,210 [P9920/D3/T556] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:52,211 [P9920/D3/T556] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:52,211 [P9920/D3/T556] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-22 15:47:52,217 [P9920/D3/T556] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 5ms)
+ 2017-08-22 15:47:52,319 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:52,319 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:52,319 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-22 15:47:52,326 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 6ms)
+ 2017-08-22 15:47:52,500 [P9920/D3/T577] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uProduct' with Id '1054' has been published.
+ 2017-08-22 15:47:52,627 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:52,627 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:52,627 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-22 15:47:52,632 [P9920/D3/T577] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2017-08-22 15:47:53,339 [P9920/D3/T569] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:47:53,339 [P9920/D3/T569] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:47:53,339 [P9920/D3/T569] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-22 15:47:53,344 [P9920/D3/T569] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 4ms)
+ 2017-08-22 15:47:56,896 [P9920/D3/T556] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:47:56,914 [P9920/D3/T556] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:48:00,603 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:48:00,603 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:48:00,603 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-22 15:48:00,609 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 5ms)
+ 2017-08-22 15:48:00,614 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:48:00,614 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:48:00,614 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-22 15:48:00,620 [P9920/D3/T576] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 5ms)
+ 2017-08-22 15:48:09,106 [P9920/D3/T569] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-21 15:48:09
+ 2017-08-22 15:48:14,742 [P9920/D3/T552] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:48:43,241 [P9920/D3/T581] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:48:43,241 [P9920/D3/T581] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:48:43,241 [P9920/D3/T581] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2017-08-22 15:48:43,246 [P9920/D3/T581] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 4ms)
+ 2017-08-22 15:48:43,421 [P9920/D3/T581] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Product
+ 2017-08-22 15:49:01,711 [P9920/D3/T572] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:49:19,549 [P9920/D3/T567] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-22 15:49:37,214 [P9920/D3/T549] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uProduct' with Id '1054' has been unpublished.
+ 2017-08-22 15:49:41,432 [P9920/D3/T555] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:49:41,455 [P9920/D3/T555] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:49:58,147 [P9920/D3/T581] INFO  umbraco.content - Loading content from database...
+ 2017-08-22 15:49:58,313 [P9920/D3/T581] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Delete: Removing uSync files for Item: Product
+ 2017-08-22 15:50:02,349 [P9920/D3/T567] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:50:02,371 [P9920/D3/T567] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:50:45,768 [P9920/D3/T11] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Product
+ 2017-08-22 15:51:00,093 [P9920/D3/T569] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: Home
+ 2017-08-22 15:51:22,115 [P9920/D3/T536] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'uProduct' with Id '0' has been published.
+ 2017-08-22 15:51:26,631 [P9920/D3/T9] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:51:26,653 [P9920/D3/T9] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:51:26,721 [P9920/D3/T539] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:52:04,550 [P9920/D3/T555] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-22 15:52:04,562 [P9920/D3/T555] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-22 15:52:04,570 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-22 15:52:04,570 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-22 15:52:04,571 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-22 15:52:04,571 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-22 15:52:04,572 [P9920/D3/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-22 15:52:04,572 [P9920/D3/T549] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-22 15:52:04,586 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-22 15:52:04,586 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-22 15:52:04,587 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-22 15:52:04,587 [P9920/D3/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-22 15:52:04,587 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-22 15:52:04,587 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-22 15:52:04,588 [P9920/D3/T555] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-22 15:52:04,588 [P9920/D3/T544] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-22 15:52:04,588 [P9920/D3/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-22 15:52:34,608 [P9920/D3/T555] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-22 15:52:42,650 [P9920/D4/T520] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on DESKTOP-1I6K8B3
+ 2017-08-22 15:52:42,677 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-22 15:52:42,687 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2017-08-22 15:52:42,751 [P9920/D4/T520] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-22 15:52:42,753 [P9920/D4/T520] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-22 15:52:42,756 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:43,003 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 246ms)
+ 2017-08-22 15:52:43,003 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-22 15:52:43,008 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2017-08-22 15:52:43,029 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:43,030 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:43,030 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-22 15:52:43,035 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-08-22 15:52:43,036 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:43,036 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:43,036 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-22 15:52:43,042 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 5ms)
+ 2017-08-22 15:52:43,061 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:43,061 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:43,062 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-22 15:52:43,066 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2017-08-22 15:52:43,067 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:43,067 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:43,067 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-22 15:52:43,072 [P9920/D4/T520] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-08-22 15:52:44,487 [P9920/D4/T520] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-22 15:52:44,730 [P9920/D4/T520] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-22 15:52:44,784 [P9920/D4/T520] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-22 15:52:44,931 [P9920/D4/T520] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-22 15:52:44,935 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-22 15:52:44,939 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-22 15:52:45,062 [P9920/D4/T520] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (91ms)
+ 2017-08-22 15:52:45,091 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-22 15:52:45,113 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-22 15:52:45,122 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-22 15:52:45,364 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,365 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-22 15:52:45,366 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,366 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-22 15:52:45,366 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2017-08-22 15:52:45,645 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 1 changes 0 failures
+ 2017-08-22 15:52:45,645 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-22 15:52:45,894 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,894 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-22 15:52:45,920 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,920 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-22 15:52:45,921 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,921 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-22 15:52:45,922 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:52:45,931 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-22 15:52:45,940 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 31 items with 1 changes ###
+ 2017-08-22 15:52:45,941 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete product Umbraco.Core.Models.IContentType Not found 
+ 2017-08-22 15:52:45,946 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Fiber\Fibercon\Fibercon\App_Data\temp\uSync\20170822_155245_Startup.config
+ 2017-08-22 15:52:45,955 [P9920/D4/T520] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1015ms)
+ 2017-08-22 15:52:45,991 [P9920/D4/T520] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3442ms)
+ 2017-08-22 15:52:46,179 [P9920/D4/T555] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.fibercon:80/umbraco (UmbracoModule request)
+ 2017-08-22 15:52:46,457 [P9920/D4/T555] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.7.1.17180'
+ 2017-08-22 15:52:46,457 [P9920/D4/T555] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.7.1.17180. Determining took: 5 ms.
+ 2017-08-22 15:52:48,253 [P9920/D4/T555] INFO  umbraco.content - Load Xml from file...
+ 2017-08-22 15:52:48,254 [P9920/D4/T555] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-22 15:52:48,333 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:48,333 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:48,334 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-22 15:52:48,338 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2017-08-22 15:52:48,700 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:52:48,700 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:52:48,700 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-22 15:52:48,705 [P9920/D4/T555] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 4ms)
+ 2017-08-22 15:52:52,528 [P9920/D4/T521] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 15:52:52,532 [P9920/D4/T521] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 15:52:53,243 [P9920/D4/T555] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:53:48,303 [P9920/D4/T527] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-21 15:53:48
+ 2017-08-22 15:53:48,344 [P9920/D4/T509] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:53:48,344 [P9920/D4/T509] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:53:48,345 [P9920/D4/T509] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-22 15:53:48,355 [P9920/D4/T509] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 10ms)
+ 2017-08-22 15:54:14,484 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-22 15:54:14,484 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-22 15:54:14,490 [P9920/D4/T521] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-22 15:54:14,494 [P9920/D4/T523] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-22 15:54:14,496 [P9920/D4/T521] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-22 15:54:14,496 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-22 15:54:14,496 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-22 15:54:14,496 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-22 15:54:14,496 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-22 15:54:14,497 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-22 15:54:14,497 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-22 15:54:14,497 [P9920/D4/T511] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-22 15:54:14,496 [P9920/D4/T549] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-22 15:54:14,497 [P9920/D4/T529] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-22 15:54:14,504 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-22 15:54:14,504 [P9920/D4/T521] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-22 15:54:14,504 [P9920/D4/T523] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-22 15:54:33,113 [P9920/D5/T512] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on DESKTOP-1I6K8B3
+ 2017-08-22 15:54:33,140 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-22 15:54:33,150 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-08-22 15:54:33,216 [P9920/D5/T512] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-22 15:54:33,218 [P9920/D5/T512] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-22 15:54:33,220 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:33,468 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 246ms)
+ 2017-08-22 15:54:33,468 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-22 15:54:33,474 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2017-08-22 15:54:33,501 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:33,501 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:33,501 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-22 15:54:33,506 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-08-22 15:54:33,507 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:33,507 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:33,508 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-22 15:54:33,514 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-08-22 15:54:33,530 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:33,530 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:33,530 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-22 15:54:33,534 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 4ms)
+ 2017-08-22 15:54:33,535 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:33,535 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:33,535 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-22 15:54:33,540 [P9920/D5/T512] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2017-08-22 15:54:34,987 [P9920/D5/T512] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-22 15:54:35,233 [P9920/D5/T512] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-22 15:54:35,304 [P9920/D5/T512] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-22 15:54:35,447 [P9920/D5/T512] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-22 15:54:35,452 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-22 15:54:35,455 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-22 15:54:35,579 [P9920/D5/T512] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (91ms)
+ 2017-08-22 15:54:35,608 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-22 15:54:35,630 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-22 15:54:35,639 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-22 15:54:35,872 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2017-08-22 15:54:35,873 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-22 15:54:35,873 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:54:35,874 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-22 15:54:35,874 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2017-08-22 15:54:36,158 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 1 changes 0 failures
+ 2017-08-22 15:54:36,158 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-22 15:54:36,511 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-22 15:54:36,511 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-22 15:54:36,536 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-22 15:54:36,536 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-22 15:54:36,537 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:54:36,537 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-22 15:54:36,538 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 15:54:36,546 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-22 15:54:36,553 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 31 items with 1 changes ###
+ 2017-08-22 15:54:36,555 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete product Umbraco.Core.Models.IContentType Not found 
+ 2017-08-22 15:54:36,560 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Fiber\Fibercon\Fibercon\App_Data\temp\uSync\20170822_155436_Startup.config
+ 2017-08-22 15:54:36,568 [P9920/D5/T512] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1112ms)
+ 2017-08-22 15:54:36,581 [P9920/D5/T512] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3570ms)
+ 2017-08-22 15:54:36,769 [P9920/D5/T507] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.fibercon:80/umbraco (UmbracoModule request)
+ 2017-08-22 15:54:37,040 [P9920/D5/T507] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.7.1.17180'
+ 2017-08-22 15:54:37,041 [P9920/D5/T507] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.7.1.17180. Determining took: 5 ms.
+ 2017-08-22 15:54:38,810 [P9920/D5/T507] INFO  umbraco.content - Load Xml from file...
+ 2017-08-22 15:54:38,810 [P9920/D5/T507] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-22 15:54:38,913 [P9920/D5/T507] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:38,913 [P9920/D5/T507] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:38,913 [P9920/D5/T507] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-22 15:54:38,918 [P9920/D5/T507] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-08-22 15:54:43,361 [P9920/D5/T507] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:54:44,544 [P9920/D4/T527] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-22 15:54:56,240 [P9920/D5/T502] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:54:56,241 [P9920/D5/T502] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:54:56,241 [P9920/D5/T502] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-22 15:54:56,248 [P9920/D5/T502] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 7ms)
+ 2017-08-22 15:54:59,395 [P9920/D5/T509] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-22 15:55:14,387 [P9920/D5/T528] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at UCommerce.RazorStore.Controllers.ProductController.RenderView(Boolean addedToBasket)
+   at UCommerce.RazorStore.Controllers.ProductController.Index(RenderModel model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-08-22 15:55:38,896 [P9920/D5/T518] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-21 15:55:38
+ 2017-08-22 15:55:57,153 [P9920/D5/T539] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:55:57,153 [P9920/D5/T539] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:55:57,153 [P9920/D5/T539] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2017-08-22 15:55:57,158 [P9920/D5/T539] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 5ms)
+ 2017-08-22 15:56:07,535 [P9920/D5/T544] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 15:56:07,536 [P9920/D5/T544] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 15:56:07,536 [P9920/D5/T544] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2017-08-22 15:56:07,540 [P9920/D5/T544] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 4ms)
+ 2017-08-22 16:03:18,911 [P9920/D5/T20] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:03:18,911 [P9920/D5/T20] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:03:18,912 [P9920/D5/T20] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2017-08-22 16:03:18,921 [P9920/D5/T20] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 9ms)
+ 2017-08-22 16:03:20,908 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:03:20,908 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:03:20,908 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2017-08-22 16:03:20,913 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 4ms)
+ 2017-08-22 16:03:20,917 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:03:20,917 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:03:20,917 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2017-08-22 16:03:20,923 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 5ms)
+ 2017-08-22 16:03:20,936 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:03:20,936 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:03:20,937 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-22 16:03:20,941 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 4ms)
+ 2017-08-22 16:03:20,955 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:03:20,955 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:03:20,955 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2017-08-22 16:03:20,961 [P9920/D5/T540] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 5ms)
+ 2017-08-22 16:25:44,626 [P9920/D5/T532] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: gmoujik@gmail.com, IP Address: 127.0.0.1
+ 2017-08-22 16:29:55,387 [P9920/D5/T518] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username gmoujik@gmail.com from IP address 127.0.0.1
+ 2017-08-22 16:29:55,389 [P9920/D5/T518] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: gmoujik@gmail.com logged in from IP address 127.0.0.1
+ 2017-08-22 16:30:17,813 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:30:17,813 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:30:17,814 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2017-08-22 16:30:17,819 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 5ms)
+ 2017-08-22 16:30:17,945 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:30:17,945 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:30:17,946 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2017-08-22 16:30:17,950 [P9920/D5/T545] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2017-08-22 16:30:18,015 [P9920/D5/T545] INFO  Jumoo.uSync.BackOffice.Handlers.ContentTypeHandler - Save: Saving uSync files for Item: aHome
+ 2017-08-22 16:30:32,996 [P9920/D5/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'aHome' with Id '0' has been published.
+ 2017-08-22 16:30:37,236 [P9920/D5/T544] INFO  umbraco.content - Save Xml to file...
+ 2017-08-22 16:30:37,261 [P9920/D5/T544] INFO  umbraco.content - Saved Xml to file.
+ 2017-08-22 16:30:49,720 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-08-22 16:30:49,720 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-08-22 16:30:49,727 [P9920/D5/T518] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-08-22 16:30:49,732 [P9920/D5/T540] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-08-22 16:30:49,733 [P9920/D5/T518] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-08-22 16:30:49,739 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-08-22 16:30:49,740 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-08-22 16:30:49,740 [P9920/D5/T532] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-08-22 16:30:49,758 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-08-22 16:30:49,758 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-08-22 16:30:49,759 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-08-22 16:30:49,759 [P9920/D5/T522] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-08-22 16:30:49,759 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-08-22 16:30:49,759 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-08-22 16:30:49,760 [P9920/D5/T517] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-08-22 16:30:49,760 [P9920/D5/T518] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-08-22 16:30:49,760 [P9920/D5/T513] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-08-22 16:31:03,482 [P9920/D6/T494] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.5 application starting on DESKTOP-1I6K8B3
+ 2017-08-22 16:31:03,509 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-08-22 16:31:03,520 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2017-08-22 16:31:03,578 [P9920/D6/T494] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-08-22 16:31:03,580 [P9920/D6/T494] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-08-22 16:31:03,583 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:03,855 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 271ms)
+ 2017-08-22 16:31:03,856 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2017-08-22 16:31:03,862 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2017-08-22 16:31:03,881 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:03,882 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:03,882 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-08-22 16:31:03,887 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 4ms)
+ 2017-08-22 16:31:03,888 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:03,888 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:03,889 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-08-22 16:31:03,895 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2017-08-22 16:31:03,911 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:03,911 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:03,911 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2017-08-22 16:31:03,917 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 6ms)
+ 2017-08-22 16:31:03,918 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:03,918 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:03,918 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2017-08-22 16:31:03,924 [P9920/D6/T494] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 5ms)
+ 2017-08-22 16:31:05,422 [P9920/D6/T494] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-08-22 16:31:05,671 [P9920/D6/T494] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-08-22 16:31:05,718 [P9920/D6/T494] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-08-22 16:31:05,872 [P9920/D6/T494] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-08-22 16:31:05,891 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2017-08-22 16:31:05,895 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2017-08-22 16:31:06,039 [P9920/D6/T494] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (101ms)
+ 2017-08-22 16:31:06,071 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 16
+ 2017-08-22 16:31:06,093 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = default Folder = ~/uSync/data/ Force = False
+ 2017-08-22 16:31:06,102 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2017-08-22 16:31:06,371 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 24 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,372 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2017-08-22 16:31:06,372 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,373 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2017-08-22 16:31:06,373 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Processing a Delete: Umbraco.Core.Models.IContentType
+ 2017-08-22 16:31:06,676 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 4 Items 1 changes 0 failures
+ 2017-08-22 16:31:06,676 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2017-08-22 16:31:06,915 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,915 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2017-08-22 16:31:06,948 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,948 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2017-08-22 16:31:06,949 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,950 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2017-08-22 16:31:06,950 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2017-08-22 16:31:06,958 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events default
+ 2017-08-22 16:31:06,966 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 32 items with 1 changes ###
+ 2017-08-22 16:31:06,967 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Delete product Umbraco.Core.Models.IContentType Not found 
+ 2017-08-22 16:31:06,975 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Fiber\Fibercon\Fibercon\App_Data\temp\uSync\20170822_163106_Startup.config
+ 2017-08-22 16:31:06,983 [P9920/D6/T494] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (1089ms)
+ 2017-08-22 16:31:07,014 [P9920/D6/T494] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3634ms)
+ 2017-08-22 16:31:07,205 [P9920/D6/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://local.fibercon:80/umbraco (UmbracoModule request)
+ 2017-08-22 16:31:07,479 [P9920/D6/T11] INFO  UCommerce.Installer.RuntimeVersionChecker - Version number reported from database: '7.7.1.17180'
+ 2017-08-22 16:31:07,479 [P9920/D6/T11] INFO  UCommerce.Umbraco7.Installer.Installer - Updating uCommerce was not needed. Current version: 7.7.1.17180. Determining took: 5 ms.
+ 2017-08-22 16:31:09,456 [P9920/D6/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-08-22 16:31:09,457 [P9920/D6/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-08-22 16:31:09,559 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:09,559 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:09,559 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-08-22 16:31:09,564 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2017-08-22 16:31:13,626 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-22 16:31:13,627 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-22 16:31:13,627 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-08-22 16:31:13,634 [P9920/D6/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 7ms)
+ 2017-08-22 16:31:15,803 [P9920/D6/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-08-22 16:31:19,852 [P9920/D5/T522] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\be4158eb\19804d61\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-08-22 16:32:09,525 [P9920/D6/T507] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-21 16:32:09
+ 2017-08-22 16:49:26,431 [P9920/D6/T500] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: gmoujik@gmail.com, IP Address: 127.0.0.1

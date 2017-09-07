@@ -1,0 +1,8 @@
+﻿ 2017-08-31 13:47:58,270 [P9920/D7/T1612] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-08-30 13:47:58
+ 2017-08-31 13:56:39,693 [P9920/D7/T1669] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username gmoujik@gmail.com from IP address 127.0.0.1
+ 2017-08-31 13:56:39,694 [P9920/D7/T1669] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: gmoujik@gmail.com logged in from IP address 127.0.0.1
+ 2017-08-31 13:56:44,429 [P9920/D7/T1681] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2017-08-31 13:56:44,429 [P9920/D7/T1681] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2017-08-31 13:56:44,429 [P9920/D7/T1681] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2017-08-31 13:56:44,438 [P9920/D7/T1681] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 8ms)
+ 2017-08-31 14:16:10,007 [P9920/D7/T1687] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: gmoujik@gmail.com, IP Address: 127.0.0.1
